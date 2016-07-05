@@ -18,6 +18,7 @@ function(emojione, uniRegexp, emojioneVersion, readyCallbacks, emojioneSupportMo
         if (version === "?v=2.1.2") return '2.1.2';
         if (version === "?v=2.1.3") return '2.1.3';
         if (version === "?v=2.1.4") return '2.1.4';
+        if (version === "?v=2.2.5") return '2.2.5';
         return '2.1.4';
     }
     function getSupportMode(version) {
